@@ -22,12 +22,12 @@ for i in range(3):          #unošenje 3 jokera
 
 
 
-l.reverse()
+l.reverse()         #okretanje brojeva jer se gleda od zadnjeg
 for i in range(3):
     l1[i].reverse()
 
 
-for i in range(3):
+for i in range(3):          #prebrojavanje istih brojeva te ispisivanje rezultata
     k = 0
     for j in range(6):
         if l1[i][j] == l[j]:
