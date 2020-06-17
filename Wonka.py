@@ -1,0 +1,7 @@
+b = int (input())
+m = int(input())
+x = int(input())
+y = int(input())
+ukupno = 2*(b+m)
+pojedeno = 2*(x+y)
+print(ukupno-pojedeno)
